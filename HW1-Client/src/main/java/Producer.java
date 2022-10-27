@@ -1,4 +1,5 @@
 import java.util.concurrent.BlockingQueue;
+import model.SkiersFactory;
 
 public class Producer extends Thread {
   private final BlockingQueue<SkiersFactory> dataBuffer;

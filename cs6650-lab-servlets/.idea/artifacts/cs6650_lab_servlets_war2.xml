@@ -1,8 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="war" name="cs6650-lab-servlets:war2">
-    <output-path>$PROJECT_DIR$/out/artifacts/cs6650_lab_servlets_war2</output-path>
-    <root id="archive" name="cs6650-lab-servlets_war.war">
-      <element id="artifact" artifact-name="cs6650-lab-servlets:war exploded" />
-    </root>
-  </artifact>
-</component>

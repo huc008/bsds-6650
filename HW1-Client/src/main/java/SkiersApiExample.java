@@ -21,7 +21,7 @@ public class SkiersApiExample {
       body.setTime(random.nextInt(360) + 1);
       apiInstance.writeNewLiftRide(body, resortID, "2022", "1", skierID);
     } catch (ApiException e) {
-      System.err.println("Exception when calling ResortsApi#addSeason");
+      System.err.println("Exception when calling SkiersApi#addSeason");
       e.printStackTrace();
     }
   }

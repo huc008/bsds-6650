@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="gson-2.9.0">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/src/main/resources/gson-2.9.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/main/resources/amqp-client-5.7.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/main/resources/commons-pool2-2.11.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

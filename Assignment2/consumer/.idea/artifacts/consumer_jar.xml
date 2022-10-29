@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="consumer:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/consumer_jar</output-path>
+    <root id="archive" name="consumer.jar">
+      <element id="module-output" name="consumer" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/src/main/resources/gson-2.9.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/src/main/resources/amqp-client-5.7.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/src/main/resources/commons-pool2-2.11.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/src/main/resources/slf4j-simple-1.7.26.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/src/main/resources/slf4j-api-1.7.26.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

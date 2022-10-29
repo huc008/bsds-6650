@@ -5,7 +5,7 @@ import java.util.concurrent.LinkedBlockingQueue;
 import model.SkiersFactory;
 
 public class SkiersClient {
-  private static final Integer NUM_REQUESTS = 100;
+  private static final Integer NUM_REQUESTS = 200000;
 
   public static void main(String[] args) throws InterruptedException {
     long start = System.currentTimeMillis();

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="Server:war" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2cc878f1-d7ff-4532-95d5-25aa160098ad" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../Client/src/main/java/Part1/ClientApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/src/main/java/Part1/ClientApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Client/src/main/java/Part1/PostThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/src/main/java/Part1/PostThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Client/target/classes/Part1/PostThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/target/classes/Part1/PostThread.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Consumer/src/main/java/ResortService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Consumer/src/main/java/ResortService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Consumer/src/main/java/SkierService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Consumer/src/main/java/SkierService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Server_war/Server_war.war" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Server_war/Server_war.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Server_war_exploded/WEB-INF/classes/Servlet/SkiersServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Server_war_exploded/WEB-INF/classes/Servlet/SkiersServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Servlet/SkiersServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Servlet/SkiersServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Servlet/SkiersServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Servlet/SkiersServlet.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="27JUzEmbCYaVh4B9iUSFnJaVaLg" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2cc878f1-d7ff-4532-95d5-25aa160098ad" name="Changes" comment="" />
+      <created>1649037947733</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1649037947733</updated>
+      <workItem from="1649037954797" duration="1120000" />
+      <workItem from="1649115986391" duration="2694000" />
+      <workItem from="1649265840511" duration="1000" />
+      <workItem from="1649265868310" duration="3569000" />
+      <workItem from="1649276621741" duration="8453000" />
+      <workItem from="1649387942873" duration="3245000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+</project>

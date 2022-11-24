@@ -1,0 +1,42 @@
+1. jedis.hget()
+
+ResortInfo resortInfo = new ResortInfo("string", 0);
+      response.getWriter().write(gson.toJson(new Resorts(resortInfo)));
+
+
+        private EndpointStats getStats() throws ExecutionException, InterruptedException {
+          RedisFuture<String> getLatency = CacheSource.getConnection().get("GET_SKIER_LATENCY");
+          RedisFuture<String> getCount = CacheSource.getConnection().get("GET_SKIER_COUNT");
+          RedisFuture<String> getMax = CacheSource.getConnection().get("GET_SKIER_MAX");
+          RedisFuture<String> postLatency = CacheSource.getConnection().get("POST_SKIER_LATENCY");
+          RedisFuture<String> postCount = CacheSource.getConnection().get("POST_SKIER_COUNT");
+          RedisFuture<String> postMax = CacheSource.getConnection().get("POST_SKIER_MAX");
+
+          List<Stats> stats = new ArrayList<>();
+          String count = postCount.get();
+          if (count != null) {
+            stats.add(new Stats("/skier", "GET",
+                Integer.parseInt(getLatency.get()) / Integer.parseInt(getCount.get()),
+                Integer.parseInt(getMax.get())));
+            stats.add(new Stats("/skier", "POST",
+                Integer.parseInt(postLatency.get()) / Integer.parseInt(count),
+                Integer.parseInt(postMax.get())));
+          }
+          return new EndpointStats(stats);
+        }
+
+
+
+         else {
+              // Process url params
+              if (urlParts[2].equals("vertical")) {
+                SkierVertical skierVertical = new SkierVertical(urlParts[1], 10);
+                res.getWriter().write(gson.toJson(new SkierResorts(skierVertical)));
+              } else {
+                LiftRideDao liftRideDao = new LiftRideDao();
+                res.getWriter().write(String.valueOf(liftRideDao.getDayVertical(Integer.parseInt(urlParts[1]), urlParts[3],
+                    urlParts[5], Integer.parseInt(urlParts[7]))));
+              }
+              res.setStatus(HttpServletResponse.SC_OK);
+
+2. add redis consumer for resort
